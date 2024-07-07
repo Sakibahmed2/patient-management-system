@@ -1,7 +1,12 @@
+import { Button } from "@/components/ui/button";
 import React from "react";
 
-const page = () => {
-  return <div>page</div>;
+const HomePage = () => {
+  return (
+    <div className="flex h-screen max-h-screen">
+      <section className="remove-scrollbar container my-auto"></section>
+    </div>
+  );
 };
 
-export default page;
+export default HomePage;
